@@ -1,0 +1,212 @@
+*{
+	margin:0;
+	padding:0;
+}
+/*
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+	width: 100%;
+}
+*/
+
+/*
+ *  Custom Scrollbar
+ */
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: black;
+	border: 2px solid black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: white;
+}
+
+/*==============| Novus Primus imported font |==============*/
+@font-face {
+  font-family: npFont;
+  src: url(../fonts/NP/Champions.otf);
+}
+@font-face {
+  font-family: npFontBold;
+  src: url(../fonts/NP/ChampionsBold.otf);
+}
+@font-face {
+  font-family: npFontExtraBold;
+  src: url(../fonts/NP/ChampionsExtraBold.otf);
+}
+
+.npFont{
+  font-family: npFont;
+}
+.npFontBold{
+  font-family: npFontBold;
+}
+.npFontExtraBold{
+  font-family: npFontExtraBold;
+}
+/*===========================================================*/
+
+.center {
+  margin: auto;
+  width: 100%;
+  /* border: 3px solid black; */
+  padding: 10px;
+}
+.center-horizontal {
+	line-height: 600px;
+	margin: auto;
+	width: 50%;
+	padding-bottom: 80px;
+	text-align: center;
+}
+.center-horizontal h1 {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.center-horizontal-get-started  {
+	line-height: 120px;
+	margin: auto;
+	width: 50%;
+	padding-top: 40px;
+	text-align: center;
+}
+.center-horizontal-get-started  h1 {
+  line-height: 2;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav {
+	background-color: black;
+	padding-bottom: 35px;
+}
+.header-bg {
+	background-image: url("../images/slider1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position:center;
+	background-size:cover;
+	text-align: center;
+}
+.header-div{
+	background-color: black;
+	text-align: center;
+}
+.header-div h3{
+	color: white;
+}
+.header-div li{
+	padding-left: 125px;
+	padding-right: 125px;
+}
+.icon-bar {
+		background-color: black;
+		padding-top: 40px;
+		padding-bottom: 15px;
+}
+
+.gray-bg {
+	background-color: #F2F2F2;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.gray-bg p{
+	color: black;
+	font-size: 24px;
+	text-align: left;
+}
+
+.black-bg {
+	background-color: black;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+.black-bg h1, p {
+	color: white;
+}
+
+.services-div{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/keyboard.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	text-align: center;	
+}
+.services-div p{
+	color: white;
+}
+
+.get-started-bg {
+	background-image: url("../images/skyline1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding-bottom: 500px;
+}
+.get-started-bg h1{
+	color: white;
+}
+
+.specialist-div p{
+	font-size: 18px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  width: 300px;
+  height: 400px;
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+.footer {
+	padding-bottom:5px;
+}
+.footer p {
+	color: white; 
+	font-size: 18px; 
+	padding-top: 15px;
+}
+
+#arrow {
+   background-image: url("../images/arrows_down.png");
+   height: 50px;
+   width: 55px;
+}
+#arrow:hover {
+   background-image: url("../images/arrows_down_hover.png");
+}
