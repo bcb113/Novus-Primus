@@ -72,7 +72,7 @@
 .center-horizontal {
 	line-height: 600px;
 	margin: auto;
-	width: 50%;
+	width: 100%;
 	padding-bottom: 80px;
 	text-align: center;
 }
@@ -97,8 +97,17 @@
 
 .nav {
 	background-color: black;
-	padding-bottom: 35px;
 }
+.nav h3 {
+	color: white;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	padding-left: 20px;
+}
+.nav button {
+	
+}
+
 .header-bg {
 	background-image: url("../images/slider1.jpg");
 	background-repeat: no-repeat;
@@ -192,6 +201,45 @@
 .container {
   padding: 2px 16px;
 }
+
+/*================================================================*/
+.pulse:hover, 
+.pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(#fff,0);
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 var(--hover); }
+}
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+}
+
+.button:hover {
+  background: black;
+}
+
+.btn-txt {
+	color: black;
+}
+.btn-txt:hover {
+	color: white;
+}
+
+/*================================================================*/
 
 .footer {
 	padding-bottom:5px;
