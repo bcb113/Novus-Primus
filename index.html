@@ -1,57 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>		
+	<meta http-equiv="X-UA-Compatble" content="ie=edge"/>		
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Novus + Primus</title>
 	<!-- add icon link -->
-    <link rel = "icon" href = "images/logo.ico" type = "image/x-icon"> 
+	<link rel="icon" href="images/favicon.png" />
+	<!--Stylesheet For The Responsiveness-->
+	<link rel="stylesheet" href="css/responsive.css"/>
 </head>
 <body>
 
 	<!--Header-->
-	<section class="container-fluid nav" id="navbar">
-		<div>
-			<nav class="nav">
-				<h3>Novus + Primus</h3>
-			</nav>
+	<section id="navbar">
+		<div class="topnav" id="myTopnav">
+		  <a href="#home" class="active">Novus + Primus</a>
+		  <span class="center">
+			<a id="service-btn" href="#services">Services</a>
+			<a id="about-btn" href="#about">About Us</a>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		  </a>
+		   </span>
 		</div>
 	</section>
 
 	<!--Header-->
 	<section class="container-fluid header-bg" id="header">
 		<div class="center-horizontal ">
-			<h1 class="npFontExtraBold" style="color:white; font-size: 64px;">Great things have small beginnings</h1>
-			<div>
-			
-			</div>
+			<h1 class="npFontExtraBold header-banner">Great things have small beginnings</h1><br />
 		</div>
 	</section>
 	
 	<!--Header Icon Bar-->
 	<section class="icon-bar">
-		<div class="text-lg-center header-div">
-				<ul class="list-inline">
+		<div class="center header-div header-icons">
+				<ul class="list-inline center">
 					<li class="list-inline-item">
-						<div style="float:left;">
-							<h3 style="font-size: 18px;">WHAT WE PROVIDE</h3>
-							<img src="images/nucleus.png" style="width:100px; height:100px;"/>
+						<div>
+							<h3>WHAT WE PROVIDE</h3>
+							<img src="images/nucleus.png"/>
 						</div>
 					</li>
 					<li class="list-inline-item">
-						<div style="float:right;">
-							<h3 style="font-size: 18px;">OUR SPECIALTIES</h3>
-							<img src="images/magnify.png" style="width:100px; height:100px;"/>
+						<div>
+							<h3>OUR SPECIALTIES</h3>
+							<img src="images/magnify.png"/>
 						</div>
 					</li>
 					<li class="list-inline-item">
-						<div style="float:right;">
-							<h3 style="font-size: 18px;">HOW WE WORK</h3>
-							<img src="images/gears.png" style="width:100px; height:100px;"/>
+						<div>
+							<h3>HOW WE WORK</h3>
+							<img src="images/gears.png"/>
 						</div>
 					</li>
 				</ul>
@@ -91,48 +96,50 @@
 		<div>
 			<h1>Our Services</h1><br />
 		</div>
-		<div class="center" style="width: 100% height: auto;">
-			<ul class="list-inline">
-					<li class="list-inline-item">
-							<h4>Web design <img src="images/diamond.png" /></h4>
-					</li>
-					<li class="list-inline-item">
-							<h4>Web development <img src="images/diamond.png" /></h4>
-					</li>
-					<li class="list-inline-item">
-							<h4>Mobile development <img src="images/diamond.png" /></h4>
-					</li>
-					<li class="list-inline-item">
-							<h4>Mobile applications</h4>
-					</li><br />
-					<li class="list-inline-item">
-							<h4>Wordpress <img src="images/diamond.png" /></h4>
-					</li>
-					<li class="list-inline-item">
-							<h4>HTML and CSS <img src="images/diamond.png" /></h4>
-					</li>
-					<li class="list-inline-item">
-							<h4>Javascript <img src="images/diamond.png" /></h4>
-					</li>
-					<li class="list-inline-item">
-							<h4>Search Engine Optimization (SEO)</h4>
-					</li><br />
-					<li class="list-inline-item">
-							<h4>Communication <img src="images/diamond.png" /></h4>
-					</li>
-					<li class="list-inline-item">
-							<h4>Marketing and e-marketing <img src="images/diamond.png" /></h4>
-					</li>
-					<li class="list-inline-item">
-							<h4>Project management</h4>
-					</li><br />
-					<li class="list-inline-item">
-							<h4>Social network <img src="images/diamond.png" /></h4>
-					</li>
-					<li class="list-inline-item">
-							<h4>Content building</h4>
-					</li>
-				</ul>
+		<div class="row center service-list" style="width: 100% height: auto;">
+			<span class="col-lg-12 col-sm-12">
+				<ul class="list-inline">
+						<li class="list-inline-item">
+								<h4>Web design <img src="images/diamond.png" /></h4>
+						</li>
+						<li class="list-inline-item">
+								<h4>Web development <img src="images/diamond.png" /></h4>
+						</li>
+						<li class="list-inline-item">
+								<h4>Mobile development <img src="images/diamond.png" /></h4>
+						</li>
+						<li class="list-inline-item">
+								<h4>Mobile applications</h4>
+						</li><br />
+						<li class="list-inline-item">
+								<h4>Wordpress <img src="images/diamond.png" /></h4>
+						</li>
+						<li class="list-inline-item">
+								<h4>HTML and CSS <img src="images/diamond.png" /></h4>
+						</li>
+						<li class="list-inline-item">
+								<h4>Javascript <img src="images/diamond.png" /></h4>
+						</li>
+						<li class="list-inline-item">
+								<h4>Search Engine Optimization (SEO)</h4>
+						</li><br />
+						<li class="list-inline-item">
+								<h4>Communication <img src="images/diamond.png" /></h4>
+						</li>
+						<li class="list-inline-item">
+								<h4>Marketing and e-marketing <img src="images/diamond.png" /></h4>
+						</li>
+						<li class="list-inline-item">
+								<h4>Project management</h4>
+						</li><br />
+						<li class="list-inline-item">
+								<h4>Social network <img src="images/diamond.png" /></h4>
+						</li>
+						<li class="list-inline-item">
+								<h4>Content building</h4>
+						</li>
+					</ul>
+			</span>
 		</div>
 	</section>
 	
@@ -298,7 +305,6 @@
 						</p></li>
 					</div>
 				</ul>
-				-->
 		</div>
 		
 		<center><div><p style="text-align:center;">See More</p>
@@ -306,6 +312,7 @@
 				<img src="images/arrows_down.png" alt="Arrow">
 			</div>
 		</div></center>
+		-->
 	</section>
 	
 	<!--How we work section-->
@@ -394,23 +401,24 @@
 									<input type="email" name="email" class="form-control" placeholder="Enter Email">
 								</div>
 								<span style=" display: inline-block;">
-									<label><i class="fa fa-comment" aria-hidden="true"></i> Phone</label>
+									<label><i class="fa fa-phone" aria-hidden="true"></i> Phone</label>
 									<input type="text" name="name" class="form-control" placeholder="Enter Phone">
 								</span>
 							</li>
 							<li>
 								<div class="form-group" style=" display: inline-block;">
-									<label><i class="fa fa-envelope" aria-hidden="true"></i> Budget</label>
+									<label><i class="fa fa-money" aria-hidden="true"></i> Budget</label>
 									<input type="email" name="email" class="form-control" placeholder="$0.00">
 								</div>
 								<span style=" display: inline-block;">
-									<label><i class="fa fa-comment" aria-hidden="true"></i> Subject</label>
+									<label><i class="fa" aria-hidden="true"></i> Subject</label>
 									<input type="text" name="name" class="form-control" placeholder="Enter Subject">
 								</span>
 							</li>
 							<li>
 								<div class="form-group">
 									<label><i class="fa fa-comment" aria-hidden="true"></i> Message</label>
+									<input type="text" name="name" class="center form-control" placeholder="Enter Subject" style="width: 75%;"><br />
 									<textarea rows="3" name="message" class="form-control center" placeholder="Type Your Message" style="width: 75%;"></textarea>
 								</div>
 							</li>
@@ -439,8 +447,10 @@
 
 	<!--JS-->
 	<script src="js/jquery.slim.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/site.js"></script>
 </body>
 </html>
 
