@@ -1,0 +1,169 @@
+/* Default Layout	*/
+
+
+/*	Extra small devices (portrait phones, less than 576px)	*/
+@media (max-width: 575.98px) {
+	.service-list ul{
+		min-width:400px;
+	}
+	.service-list h4{
+		font-size: 11px;
+	}
+	.service-list img{
+		width: 15px;
+		height: 15px;
+	}
+	
+	.header-banner {
+		font-size: 30px;
+	}
+	
+	.header-div li{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	.header-icons ul{
+		min-width: 200px;
+	}
+	.header-icons h3{
+		font-size: 12px;
+	}
+	.header-icons img {
+		width: 50px;
+		height: 50px;
+	}
+}
+
+/*	Small devices (landscape phones, 576px and up)	*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.service-list ul{
+		min-width:576px;
+	}
+	.service-list h4{
+		font-size: 15px;
+	}
+	.service-list img{
+		width: 20px;
+		height: 20px;
+	}
+	
+	.header-banner {
+		font-size: 35px;
+	}
+	
+	.header-div li{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	.header-icons h3{
+		font-size: 15px;
+	}
+	.header-icons img {
+		width: 75px;
+		height: 75px;
+	}
+	
+}
+
+/*	Medium devices (tablets, 768px and up)	*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.service-list ul{
+		min-width:768;
+	}
+	.service-list h4{
+		font-size: 18px;
+	}
+	
+	.header-banner {
+		font-size: 40px;
+	}
+	
+	.header-div li{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	
+	.header-icons h3{
+		font-size: 20px;
+	}
+	.header-icons img {
+		width: 80px;
+		height: 80px;
+	}
+}
+
+/*	Large devices (desktops, 992px and up)	*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.service-list h4{
+		font-size: 20px;
+	}
+	.service-list ul{
+		min-width:1000px;
+	}
+	
+	.header-banner {
+		font-size: 45px;
+	}
+	
+	.header-div li{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	
+	.header-icons h3{
+		font-size: 22px;
+	}
+	.header-icons img {
+		width: 100px;
+		height: 100px;
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px){
+	.service-list h4{
+		font-size: 22px;
+	}
+	
+	.header-banner {
+		font-size: 50px;
+	}
+	
+	.header-div li{
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	
+	.header-icons h3{
+		font-size: 30px;
+	}
+	.header-icons img {
+		width: 100px;
+		height: 100px;
+	}
+}
+
+/*	Extra large devices (large desktops, 1200px and up)	*/
+@media (min-width: 1400px){
+	.service-list ul{
+		min-width:1000px;
+	}
+	
+	.header-banner {
+		font-size: 60px;
+	}
+	
+	.header-div li{
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+	
+	.header-icons h3{
+		font-size: 30px;
+	}
+	.header-icons img {
+		width: 100px;
+		height: 100px;
+	}
+}
