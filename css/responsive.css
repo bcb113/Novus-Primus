@@ -30,6 +30,10 @@
 		width: 50px;
 		height: 50px;
 	}
+	
+	.center-horizontal-get-started h1 {
+		font-size: 24px;
+	}
 }
 
 /*	Small devices (landscape phones, 576px and up)	*/
@@ -62,6 +66,10 @@
 		height: 75px;
 	}
 	
+	.center-horizontal-get-started h1 {
+		font-size: 32px;
+	}
+	
 }
 
 /*	Medium devices (tablets, 768px and up)	*/
@@ -88,6 +96,9 @@
 	.header-icons img {
 		width: 80px;
 		height: 80px;
+	}
+	.center-horizontal-get-started h1 {
+		font-size: 32px;
 	}
 }
 
@@ -116,6 +127,10 @@
 		width: 100px;
 		height: 100px;
 	}
+	
+	.center-horizontal-get-started h1 {
+		font-size: 40px;
+	}
 }
 
 @media (min-width: 1200px) and (max-width: 1399.98px){
@@ -138,6 +153,9 @@
 	.header-icons img {
 		width: 100px;
 		height: 100px;
+	}
+	.center-horizontal-get-started h1 {
+		font-size: 48px;
 	}
 }
 
@@ -162,5 +180,8 @@
 	.header-icons img {
 		width: 100px;
 		height: 100px;
+	}
+	.center-horizontal-get-started h1 {
+		font-size: 56px;
 	}
 }
